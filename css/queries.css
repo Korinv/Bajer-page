@@ -1,0 +1,282 @@
+/********************************/
+/* Below 1600px */
+/********************************/
+
+@media (max-width: 100em) {
+  .sections {
+    width: 85%;
+  }
+
+  .about-us--img {
+    height: 30rem;
+  }
+
+  .about-us--text {
+    font-size: 2.4rem;
+  }
+
+  .footer {
+    font-size: 1.4rem;
+  }
+}
+
+/********************************/
+/* Below 1344px */
+/********************************/
+
+@media (max-width: 84em) {
+  .sections {
+    width: 90%;
+  }
+
+  .about-us--img {
+    height: 25rem;
+  }
+
+  .about-us--text {
+    font-size: 2rem;
+  }
+}
+
+/********************************/
+/* Below 1088px */
+/********************************/
+
+@media (max-width: 68em) {
+  .sections {
+    width: 100%;
+  }
+
+  .about-us--img {
+    height: 20rem;
+  }
+
+  .about-us--text {
+    font-size: 1.8rem;
+  }
+}
+
+/********************************/
+/* Below 976px */
+/********************************/
+
+@media (max-width: 61em) {
+  header {
+    font-size: 7.4rem;
+  }
+
+  h2 {
+    font-size: 5.2rem;
+  }
+
+  h3 {
+    font-size: 3.6rem;
+  }
+
+  .menu--button:link,
+  .menu--button:visited {
+    font-size: 3rem;
+  }
+
+  .menu--logo {
+    height: 8rem;
+  }
+
+  .sections {
+    padding: 4.8rem 9.6rem;
+    padding-bottom: 9.6rem;
+  }
+}
+
+/********************************/
+/* Below 800px */
+/********************************/
+
+@media (max-width: 50em) {
+  header {
+    font-size: 6.2rem;
+  }
+
+  h2 {
+    font-size: 4.4rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  .menu--button:link,
+  .menu--button:visited {
+    font-size: 2.4rem;
+  }
+
+  .sections {
+    padding: 3.2rem 8rem;
+    padding-bottom: 8rem;
+  }
+  .about-us--img {
+    height: 15rem;
+  }
+
+  .about-us--text {
+    font-size: 1.6rem;
+  }
+
+  .about-us--team--img {
+    height: 8rem;
+  }
+
+  .about-us--team--text {
+    font-size: 1.6rem;
+  }
+}
+
+/********************************/
+/* Below 640px */
+/********************************/
+
+@media (max-width: 40em) {
+  header {
+    font-size: 5.2rem;
+  }
+
+  h2 {
+    font-size: 3.6rem;
+    margin-bottom: -5rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  .menu--button:link,
+  .menu--button:visited {
+    font-size: 2.2rem;
+  }
+
+  .sections {
+    padding: 2.4rem 6.4rem;
+    padding-bottom: 6.4rem;
+    gap: 9.6rem;
+  }
+
+  .section {
+    gap: 4.8rem;
+  }
+
+  .about-us--img {
+    height: 10rem;
+  }
+
+  .about-us--text {
+    font-size: 1.4rem;
+  }
+
+  .about-us--team--img {
+    height: 6rem;
+  }
+
+  .about-us--team--text {
+    font-size: 1.4rem;
+  }
+}
+
+/********************************/
+/* Below 560px */
+/********************************/
+
+@media (max-width: 35em) {
+  header {
+    font-size: 4.4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: -6rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .menu-left,
+  .menu-right {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .menu--button:link,
+  .menu--button:visited {
+    font-size: 2rem;
+  }
+
+  .sections {
+    padding: 4.4rem;
+    gap: 6.4rem;
+  }
+
+  .section {
+    gap: 4rem;
+  }
+
+  .about-us--text {
+    font-size: 1.2rem;
+  }
+
+  .about-us--team--img {
+    height: 6rem;
+  }
+
+  .about-us--team--text {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    font-size: 1.2rem;
+  }
+}
+
+/********************************/
+/* Below 480px */
+/********************************/
+
+@media (max-width: 30em) {
+  header {
+    font-size: 3.6rem;
+  }
+
+  h3 {
+    font-family: Candice;
+    font-size: 2rem;
+  }
+
+  .menu--button:link,
+  .menu--button:visited {
+    font-size: 1.8rem;
+  }
+
+  .menu--logo {
+    height: 8rem;
+  }
+
+  .sections {
+    padding: 3.6rem;
+    gap: 6.4rem;
+  }
+
+  .about-us--text {
+    font-size: 1.2rem;
+  }
+
+  .about-us--team--img {
+    height: 6rem;
+  }
+
+  .about-us--team--text {
+    font-size: 1rem;
+  }
+
+  .footer {
+    font-size: 1.2rem;
+  }
+}

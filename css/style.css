@@ -208,8 +208,17 @@ h3 {
 
 .partners--logos {
   display: grid;
-  grid-template-columns: repeat(1fr, 5);
-  grid-template-rows: repeat(1fr, 4);
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  row-gap: 0;
+  column-gap: 3rem;
+  margin-top: -10rem;
+}
+
+.partners--logo {
+  width: 100%;
 }
 
 .members {

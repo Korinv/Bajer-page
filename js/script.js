@@ -15,10 +15,5 @@ allLinks.forEach(function (link) {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
-
-    //Close mobile navigation
-    if (link.classList.contains("main-nav-link")) {
-      headerEl.classList.toggle("nav-open");
-    }
   });
 });

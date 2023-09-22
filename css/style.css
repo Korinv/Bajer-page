@@ -258,10 +258,12 @@ h3 {
   align-items: center;
   gap: 2rem;
   line-height: 1.5;
+  transition: all 0.3s;
 }
 
 .contacts--link:hover,
 .contacts--link:active {
+  transform: scale(1.05);
 }
 
 .footer {

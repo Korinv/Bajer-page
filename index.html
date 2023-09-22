@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
     <link rel="stylesheet" href="Font/stylesheet.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
     <script defer src="js/script.js"></script>
   </head>
   <body>
@@ -14,8 +24,8 @@
     <nav class="menu">
       <div class="menu-left">
         <a class="menu--button" href="#o-nas">O nas</a>
-        <a class="menu--button" href="#wynajmy">Wynajmy</a>
         <a class="menu--button" href="#partnerzy">Partnerzy</a>
+        <a class="menu--button" href="#wynajmy">Wynajmy</a>
       </div>
       <a href="#">
         <img class="menu--logo" src="img/KSBAJER1000x800.png" alt="LOGO" />
@@ -29,7 +39,8 @@
     <div class="sections">
       <h2 id="o-nas">O nas</h2>
       <section class="section about-us">
-        <img class="about-us--img" src="img/bajer.jpg" alt="test" />
+        <img class="about-us--img" src="img/about-us.jpg" alt="test" />
+
         <p class="about-us--text">
           Jesteśmy agendą kultury, która zajmuje się organizacją imprez
           tanecznych, koncertów, aktywności sportowych oraz innych inicjatyw
@@ -40,15 +51,33 @@
           spotkacie.
         </p>
       </section>
+      <section class="section about-us--features">
+        <div class="about-us--feature">
+          <ion-icon name="calendar-outline" class="feature--icon"></ion-icon>
+          <p class="feature--text">Działamy od</p>
+          <span class="feature--text__bold">1978r.</span>
+        </div>
+        <div class="about-us--feature">
+          <ion-icon name="people-outline" class="feature--icon"></ion-icon>
+          <p class="feature--text">Klub liczy</p>
+          <span class="feature--text__bold">55</span>
+          <p class="feature--text">członków</p>
+        </div>
+        <div class="about-us--feature">
+          <ion-icon name="location-outline" class="feature--icon"></ion-icon>
+          <p class="feature--text">Nasza siedziba to</p>
+          <span class="feature--text__bold">Akademik T-15</span>
+          <p class="feature--text">przy ul. Wittiga 6</p>
+        </div>
+        <div class="about-us--feature">
+          <ion-icon name="square-outline" class="feature--icon"></ion-icon>
+          <p class="feature--text">Powierzchnia klubu</p>
+          <span class="feature--text__bold">72 m^2</span>
+        </div>
+      </section>
       <h2 id="partnerzy" class="text--r">Partnerzy</h2>
       <section class="section partners">
-        <p class="about-us--text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-          doloribus deleniti reiciendis odio aperiam? Commodi unde quo
-          reiciendis aspernatur adipisci, in voluptas ex eos quae eius! Quis
-          totam corporis eligendi.
-        </p>
-        <img class="about-us--img" src="img/bajer.jpg" alt="test" />
+        <div class="partners--logos"></div>
       </section>
       <h2 id="wynajmy">Wynajmy</h2>
       <section class="section rents">

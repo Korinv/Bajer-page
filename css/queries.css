@@ -2,6 +2,16 @@
 /* Below 1600px */
 /********************************/
 
+@media (max-width: 110em) {
+  .members--list {
+    width: 140rem;
+  }
+}
+
+/********************************/
+/* Below 1600px */
+/********************************/
+
 @media (max-width: 100em) {
   .sections {
     width: 85%;
@@ -33,6 +43,10 @@
 
   .event--img {
     height: 25rem;
+  }
+
+  .members--list {
+    width: 120rem;
   }
 
   .footer {
@@ -79,6 +93,10 @@
     line-height: 1.2;
   }
 
+  .members--list {
+    width: 110rem;
+  }
+
   .contacts--link:link,
   .contacts--link:visited {
     font-size: 3.6rem;
@@ -114,7 +132,7 @@
   }
 
   .members--list {
-    width: 80rem;
+    width: 90rem;
   }
 }
 
@@ -304,6 +322,18 @@
     font-size: 3rem;
   }
 
+  .future-events {
+    flex-direction: column;
+  }
+
+  .event--img {
+    height: 20rem;
+  }
+
+  .event--date {
+    margin-bottom: -6rem;
+  }
+
   .event--text {
     font-size: 1.6rem;
   }
@@ -442,26 +472,6 @@
 
   .rents--text {
     font-size: 2.4rem;
-  }
-
-  .event--img {
-    height: 20rem;
-  }
-
-  .event--date {
-    margin-bottom: -6rem;
-  }
-
-  .event--text {
-    font-size: 1.6rem;
-  }
-
-  .event--icon {
-    font-size: 3rem;
-  }
-
-  .future-events {
-    flex-direction: column;
   }
 
   .about-us--team--img {

@@ -89,7 +89,7 @@
   }
 
   .event--description {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 1.2;
   }
 
@@ -116,6 +116,15 @@
 
   .menu {
     padding: 0 5rem;
+  }
+
+  .partners--offer:link,
+  .partners--offer:visited {
+    font-size: 8rem;
+  }
+
+  .partners--logos {
+    margin-top: -5rem;
   }
 
   .event--img {
@@ -219,6 +228,11 @@
     font-size: 1.8rem;
   }
 
+  .partners--offer:link,
+  .partners--offer:visited {
+    font-size: 6.4rem;
+  }
+
   .event--img {
     height: 15rem;
   }
@@ -237,7 +251,7 @@
   }
 
   .event--description {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     line-height: 1.3;
   }
 
@@ -318,6 +332,10 @@
     grid-template-rows: repeat(5, 1fr);
   }
 
+  .partners--logos {
+    margin-top: -8rem;
+  }
+
   .rents--text {
     font-size: 3rem;
   }
@@ -327,7 +345,7 @@
   }
 
   .event--img {
-    height: 20rem;
+    height: 25rem;
   }
 
   .event--date {
@@ -340,6 +358,10 @@
 
   .event--icon {
     font-size: 3rem;
+  }
+
+  .event--description {
+    font-size: 1.8rem;
   }
 
   .about-us--team--img {
@@ -474,6 +496,22 @@
     font-size: 2.4rem;
   }
 
+  .event--date {
+    gap: 2rem;
+  }
+
+  .event--text {
+    gap: 1.4rem;
+  }
+
+  .event--img {
+    height: 20rem;
+  }
+
+  .event--description {
+    font-size: 1.6rem;
+  }
+
   .about-us--team--img {
     height: 6rem;
   }
@@ -564,6 +602,15 @@
     padding: 2rem;
   }
 
+  .partners--offer:link,
+  .partners--offer:visited {
+    font-size: 4.8rem;
+  }
+
+  .partners--logos {
+    margin-top: -5rem;
+  }
+
   .members--list {
     width: 40rem;
   }
@@ -606,6 +653,18 @@
 
   .rents--text {
     font-size: 2rem;
+  }
+
+  .event--date {
+    gap: 1.6rem;
+  }
+
+  .event--img {
+    height: 15rem;
+  }
+
+  .event--description {
+    font-size: 1.4rem;
   }
 
   .event--text {
@@ -697,6 +756,10 @@
     font-size: 1.8rem;
   }
 
+  .rents--text {
+    font-size: 1.8rem;
+  }
+
   .about-us--team--text {
     font-size: 1.2rem;
   }
@@ -728,6 +791,14 @@
     height: 15rem;
   }
 
+  .event--text {
+    font-size: 1.2rem;
+  }
+
+  .event--icon {
+    font-size: 2.4rem;
+  }
+
   .about-us--team--text {
     font-size: 1rem;
   }
@@ -742,6 +813,11 @@
 /********************************/
 
 @media (max-width: 23em) {
+  .partners--offer:link,
+  .partners--offer:visited {
+    font-size: 3.6rem;
+  }
+
   .members--list {
     width: 30rem;
     font-size: 1.2rem;

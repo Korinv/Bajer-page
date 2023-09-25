@@ -238,6 +238,7 @@ h3 {
 
 .event--date {
   margin-bottom: -10rem;
+  gap: 3rem;
 }
 
 .event--text {
@@ -257,8 +258,8 @@ h3 {
 }
 
 .event--description {
-  font-size: 1.6rem;
-  line-height: 1.2;
+  font-size: 2.4rem;
+  line-height: 1.4;
 }
 
 .about-us--text {
@@ -331,6 +332,24 @@ h3 {
 .text--r {
   text-align: right;
   justify-self: right;
+}
+
+.partners {
+  flex-direction: column;
+}
+
+.partners--offer:link,
+.partners--offer:visited {
+  font-family: Candice;
+  text-decoration: none;
+  color: inherit;
+  font-size: 9.6rem;
+  transition: all 0.3s;
+}
+
+.partners--offer:hover,
+.partners--offer:active {
+  transform: scale(1.1);
 }
 
 .partners--logos {

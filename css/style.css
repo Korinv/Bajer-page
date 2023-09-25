@@ -33,6 +33,7 @@ header {
   font-size: 9.8rem;
   text-align: center;
   padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 h2 {
@@ -213,6 +214,7 @@ h3 {
   font-size: 4.4rem;
   font-weight: 700;
   transition: all 0.3s;
+  font-family: Candice;
 }
 
 .event--link:hover,
@@ -223,19 +225,35 @@ h3 {
 .event--details {
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1.2rem;
 }
 
 .event--img {
   height: 30rem;
 }
 
-.event--text span {
-  font-weight: 700;
+.event--icon {
+  font-size: 3.6rem;
+}
+
+.event--date {
+  margin-bottom: -10rem;
 }
 
 .event--text {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1.6rem;
   font-size: 2.4rem;
+  transition: all 0.3s;
+}
+
+.event--text:hover,
+.event--text:active {
+  transform: scale(1.05);
 }
 
 .event--description {
@@ -344,9 +362,11 @@ h3 {
 }
 
 .members--list {
+  width: 100rem;
   list-style: none;
   font-size: 1.6rem;
   line-height: 1.5;
+  column-count: 3;
 }
 
 .contact {
@@ -370,6 +390,15 @@ h3 {
 .contacts--link:hover,
 .contacts--link:active {
   transform: scale(1.05) translateX(15px);
+}
+
+.contacts--link-img {
+  display: flex;
+  justify-content: right;
+}
+
+.contacts--img {
+  width: 100%;
 }
 
 .footer {

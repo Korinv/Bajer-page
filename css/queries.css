@@ -7,12 +7,32 @@
     width: 85%;
   }
 
+  .menu {
+    padding: 0 10rem;
+  }
+
   .about-us--img {
     height: 30rem;
   }
 
   .about-us--text {
     font-size: 2.4rem;
+  }
+
+  .feature--icon {
+    font-size: 5.2rem;
+  }
+
+  .feature--text {
+    font-size: 2rem;
+  }
+
+  .feature--text__bold {
+    font-size: 2.4rem;
+  }
+
+  .event--img {
+    height: 25rem;
   }
 
   .footer {
@@ -29,12 +49,72 @@
     width: 90%;
   }
 
+  .menu--button:link,
+  .menu--button:visited {
+    font-size: 3rem;
+  }
+
   .about-us--img {
     height: 25rem;
   }
 
   .about-us--text {
     font-size: 2rem;
+  }
+
+  .feature--icon {
+    font-size: 4.4rem;
+  }
+
+  .feature--text {
+    font-size: 1.8rem;
+  }
+
+  .feature--text__bold {
+    font-size: 2rem;
+  }
+
+  .event--description {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+
+  .contacts--link:link,
+  .contacts--link:visited {
+    font-size: 3.6rem;
+  }
+}
+
+/********************************/
+/* Below 1264px */
+/********************************/
+
+@media (max-width: 79em) {
+  .about-us--features {
+    margin-top: -8rem;
+    padding: 0;
+    gap: 3rem;
+  }
+
+  .menu {
+    padding: 0 5rem;
+  }
+
+  .event--img {
+    height: 20rem;
+  }
+
+  .event--link:link,
+  .event--link:visited {
+    font-size: 3.6rem;
+  }
+
+  .about-us--team--img {
+    height: 15rem;
+  }
+
+  .members--list {
+    width: 80rem;
   }
 }
 
@@ -43,8 +123,16 @@
 /********************************/
 
 @media (max-width: 68em) {
+  .menu {
+    padding: 0;
+  }
+
   .sections {
     width: 100%;
+  }
+
+  h2 {
+    margin-bottom: -4rem;
   }
 
   .about-us--img {
@@ -53,6 +141,15 @@
 
   .about-us--text {
     font-size: 1.8rem;
+  }
+
+  .contacts--link:link,
+  .contacts--link:visited {
+    font-size: 3rem;
+  }
+
+  .point-to-scroll {
+    margin: -2rem 0;
   }
 }
 
@@ -67,6 +164,7 @@
 
   h2 {
     font-size: 5.2rem;
+    margin-bottom: -6rem;
   }
 
   h3 {
@@ -75,7 +173,7 @@
 
   .menu--button:link,
   .menu--button:visited {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
 
   .menu--logo {
@@ -85,6 +183,59 @@
   .sections {
     padding: 4.8rem 9.6rem;
     padding-bottom: 9.6rem;
+  }
+
+  .section-o-nas {
+    padding-top: 3rem;
+  }
+
+  .feature--icon {
+    font-size: 3.6rem;
+  }
+
+  .feature--text {
+    font-size: 1.6rem;
+  }
+
+  .feature--text__bold {
+    font-size: 1.8rem;
+  }
+
+  .event--img {
+    height: 15rem;
+  }
+
+  .event--link:link,
+  .event--link:visited {
+    font-size: 3rem;
+  }
+
+  .event--text {
+    font-size: 2rem;
+  }
+
+  .event--icon {
+    font-size: 3rem;
+  }
+
+  .event--description {
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+
+  .members--list {
+    width: 70rem;
+  }
+
+  .point-to-scroll {
+    margin: -3rem 0;
+    margin-top: -5rem;
+  }
+
+  .contacts--link:link,
+  .contacts--link:visited {
+    font-size: 2.4rem;
+    line-height: 2;
   }
 }
 
@@ -99,6 +250,7 @@
 
   h2 {
     font-size: 4.4rem;
+    margin-bottom: -6rem;
   }
 
   h3 {
@@ -107,13 +259,34 @@
 
   .menu--button:link,
   .menu--button:visited {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .sections {
     padding: 3.2rem 8rem;
     padding-bottom: 8rem;
   }
+
+  .section-o-nas {
+    padding-top: 6rem;
+  }
+
+  .about-us--features {
+    gap: 2rem;
+  }
+
+  .feature--icon {
+    font-size: 3rem;
+  }
+
+  .feature--text {
+    font-size: 1.4rem;
+  }
+
+  .feature--text__bold {
+    font-size: 1.6rem;
+  }
+
   .about-us--img {
     height: 15rem;
   }
@@ -122,12 +295,77 @@
     font-size: 1.6rem;
   }
 
+  .partners--logos {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .rents--text {
+    font-size: 3rem;
+  }
+
+  .event--text {
+    font-size: 1.6rem;
+  }
+
+  .event--icon {
+    font-size: 3rem;
+  }
+
   .about-us--team--img {
     height: 8rem;
   }
 
   .about-us--team--text {
     font-size: 1.6rem;
+  }
+
+  .about-us--team--text span {
+    font-size: 2.4rem;
+  }
+
+  .members--list {
+    width: 60rem;
+    column-count: 2;
+    font-size: 1.4rem;
+  }
+
+  .contacts--link:link,
+  .contacts--link:visited {
+    font-size: 2rem;
+  }
+}
+
+/********************************/
+/* Below 704px */
+/********************************/
+
+@media (max-width: 50em) {
+  .menu-left,
+  .menu-right {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .about-us--features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3.6rem;
+  }
+
+  .feature--icon {
+    font-size: 6.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature--text {
+    font-size: 2.4rem;
+  }
+
+  .feature--text__bold {
+    font-size: 3rem;
+    font-weight: 700;
   }
 }
 
@@ -164,20 +402,83 @@
     gap: 4.8rem;
   }
 
-  .about-us--img {
-    height: 10rem;
+  .section-o-nas {
+    padding-top: 8rem;
   }
 
-  .about-us--text {
-    font-size: 1.4rem;
+  .about-us {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .about-us--img {
+    height: 25rem;
+  }
+
+  .about-us--features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2.4rem;
+  }
+
+  .feature--icon {
+    font-size: 5.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature--text {
+    font-size: 2rem;
+  }
+
+  .feature--text__bold {
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .partners--logos {
+    margin-top: -5rem;
+  }
+
+  .rents--text {
+    font-size: 2.4rem;
+  }
+
+  .event--img {
+    height: 20rem;
+  }
+
+  .event--date {
+    margin-bottom: -6rem;
+  }
+
+  .event--text {
+    font-size: 1.6rem;
+  }
+
+  .event--icon {
+    font-size: 3rem;
+  }
+
+  .future-events {
+    flex-direction: column;
   }
 
   .about-us--team--img {
     height: 6rem;
   }
 
-  .about-us--team--text {
-    font-size: 1.4rem;
+  .members--list {
+    width: 50rem;
+  }
+
+  .contacts--link:link,
+  .contacts--link:visited {
+    font-size: 1.6rem;
+  }
+
+  .point-to-scroll {
+    margin: 0;
   }
 }
 
@@ -192,7 +493,7 @@
 
   h2 {
     font-size: 3rem;
-    margin-bottom: -6rem;
+    margin-bottom: -4rem;
   }
 
   h3 {
@@ -212,23 +513,49 @@
 
   .sections {
     padding: 4.4rem;
-    gap: 6.4rem;
   }
 
   .section {
     gap: 4rem;
   }
 
+  .section-o-nas {
+    padding-top: 6rem;
+  }
+
+  .about-us--features {
+    margin-top: -4rem;
+  }
+
   .about-us--text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+  }
+
+  .feature--icon {
+    font-size: 4.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature--text {
+    font-size: 1.8rem;
+  }
+
+  .feature--text__bold {
+    font-size: 2rem;
   }
 
   .about-us--team--img {
     height: 6rem;
   }
 
-  .about-us--team--text {
-    font-size: 1.2rem;
+  .partners--logos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    padding: 2rem;
+  }
+
+  .members--list {
+    width: 40rem;
   }
 
   .footer {
@@ -261,11 +588,22 @@
 
   .sections {
     padding: 3.6rem;
-    gap: 6.4rem;
   }
 
   .about-us--text {
     font-size: 1.2rem;
+  }
+
+  .rents--text {
+    font-size: 2rem;
+  }
+
+  .event--text {
+    font-size: 1.4rem;
+  }
+
+  .event--icon {
+    font-size: 2.4rem;
   }
 
   .about-us--team--img {
@@ -273,10 +611,135 @@
   }
 
   .about-us--team--text {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+
+  .about-us--team--text span {
+    font-size: 2rem;
+  }
+
+  .contact {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .contacts--link-img {
+    justify-content: center;
+  }
+
+  .contacts--img {
+    width: 80%;
+  }
+
+  .contacts--link:link,
+  .contacts--link:visited {
+    font-size: 2rem;
+    line-height: 2;
   }
 
   .footer {
     font-size: 1.2rem;
+  }
+
+  .point-to-scroll {
+    margin-top: -8rem;
+  }
+}
+
+/********************************/
+/* Below 448px */
+/********************************/
+
+@media (max-width: 28em) {
+  header {
+    font-size: 3rem;
+  }
+
+  .menu--button:link,
+  .menu--button:visited {
+    font-size: 1.6rem;
+  }
+
+  .menu--button:hover,
+  .menu--button:active {
+    transform: scale(1.05);
+  }
+
+  .menu--logo {
+    height: 6.4rem;
+  }
+
+  .about-us--img {
+    height: 20rem;
+  }
+
+  .feature--icon {
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .feature--text {
+    font-size: 1.6rem;
+  }
+
+  .feature--text__bold {
+    font-size: 1.8rem;
+  }
+
+  .about-us--team--text {
+    font-size: 1.2rem;
+  }
+
+  .about-us--team--text span {
+    font-size: 1.8rem;
+  }
+
+  .members--list {
+    width: 35rem;
+  }
+}
+
+/********************************/
+/* Below 400px */
+/********************************/
+
+@media (max-width: 28em) {
+  .menu--button:link,
+  .menu--button:visited {
+    font-size: 1.4rem;
+  }
+
+  .about-us--features {
+    gap: 1.6rem;
+  }
+
+  .event--img {
+    height: 15rem;
+  }
+
+  .about-us--team--text {
+    font-size: 1rem;
+  }
+
+  .about-us--team--text span {
+    font-size: 1.6rem;
+  }
+}
+
+/********************************/
+/* Below 368px */
+/********************************/
+
+@media (max-width: 23em) {
+  .members--list {
+    width: 30rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  .contacts--link:link,
+  .contacts--link:visited {
+    font-size: 1.8rem;
   }
 }

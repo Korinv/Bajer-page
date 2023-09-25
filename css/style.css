@@ -338,6 +338,13 @@ h3 {
   flex-direction: column;
 }
 
+.partners--trust {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: left;
+  width: 100%;
+}
+
 .partners--offer:link,
 .partners--offer:visited {
   font-family: Candice;

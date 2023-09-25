@@ -303,6 +303,11 @@
     padding-top: 6rem;
   }
 
+  .about-us {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
   .about-us--features {
     gap: 2rem;
   }
@@ -320,7 +325,7 @@
   }
 
   .about-us--img {
-    height: 15rem;
+    height: 30rem;
   }
 
   .about-us--text {
@@ -456,11 +461,6 @@
 
   .section-o-nas {
     padding-top: 8rem;
-  }
-
-  .about-us {
-    flex-direction: column;
-    gap: 2rem;
   }
 
   .about-us--img {

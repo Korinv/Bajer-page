@@ -28,7 +28,7 @@ body {
 }
 
 header {
-  font-family: Candice;
+  font-family: BajerFont;
   background-color: #000;
   font-size: 9.8rem;
   text-align: center;
@@ -37,13 +37,13 @@ header {
 }
 
 h2 {
-  font-family: Candice;
+  font-family: BajerFont;
   font-size: 6.2rem;
   margin-bottom: -8rem;
 }
 
 h3 {
-  font-family: Candice;
+  font-family: BajerFont;
   font-size: 4.4rem;
 }
 
@@ -100,7 +100,7 @@ h3 {
 .menu--button:visited {
   display: inline-block;
   font-size: 3.6rem;
-  font-family: Candice;
+  font-family: BajerFont;
   width: 100%;
   text-decoration: none;
   background-color: transparent;
@@ -214,7 +214,7 @@ h3 {
   font-size: 4.4rem;
   font-weight: 700;
   transition: all 0.3s;
-  font-family: Candice;
+  font-family: BajerFont;
 }
 
 .event--link:hover,
@@ -347,7 +347,7 @@ h3 {
 
 .partners--offer:link,
 .partners--offer:visited {
-  font-family: Candice;
+  font-family: BajerFont;
   text-decoration: none;
   color: inherit;
   font-size: 9.6rem;
